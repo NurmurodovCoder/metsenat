@@ -5,8 +5,10 @@ from .serializers import StudentSerializers, DonatorSerializers, DonatSerializer
 from .models import Student, Donat, Donator ,Universitet
 from rest_framework.decorators import api_view
 
+
 from rest_framework.views import APIView
 from django.db.models import Sum
+
 
 from django_filters.rest_framework import DjangoFilterBackend
 from drf_yasg.utils import swagger_auto_schema
